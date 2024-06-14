@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake;-P;/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/download-gtest.cmake;COMMAND;/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake;-P;/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/verify-gtest.cmake;COMMAND;/opt/homebrew/Cellar/cmake/3.23.2/bin/cmake;-P;/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/extract-gtest.cmake
+source_dir=/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest
+work_dir=/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src
+url(s)=https://github.com/google/googletest/archive/f8d7d77c06936315286eb55f8de22cd23c188571.zip
+hash=
+no_extract=
+

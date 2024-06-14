@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/CMakeFiles/gtest
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/CMakeFiles/gtest.rule
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/CMakeFiles/gtest-complete.rule
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-build.rule
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-configure.rule
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-download.rule
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-install.rule
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-mkdir.rule
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-patch.rule
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-update.rule

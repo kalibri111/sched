@@ -1,0 +1,433 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: sched
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/
+
+#############################################
+# Utility command for test
+
+build CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build && /opt/homebrew/Cellar/cmake/3.23.2/bin/ctest --force-new-ctest-process
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build test: phony CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build && /opt/homebrew/Cellar/cmake/3.23.2/bin/ccmake -S/Users/ivanleskin/Desktop/MIPT/diploma/sched -B/Users/ivanleskin/Desktop/MIPT/diploma/sched/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/ivanleskin/Desktop/MIPT/diploma/sched -B/Users/ivanleskin/Desktop/MIPT/diploma/sched/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ivanleskin/Desktop/MIPT/diploma/sched/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target sched
+
+
+#############################################
+# Order-only phony target for sched
+
+build cmake_object_order_depends_target_sched: phony || src/CMakeFiles/sched.dir
+
+build src/CMakeFiles/sched.dir/stealing/coordinator.c.o: C_COMPILER__sched_Debug /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/coordinator.c || cmake_object_order_depends_target_sched
+  DEP_FILE = src/CMakeFiles/sched.dir/stealing/coordinator.c.o.d
+  FLAGS = -g -arch arm64 -std=gnu11
+  INCLUDES = -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils
+  OBJECT_DIR = src/CMakeFiles/sched.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/sched.dir/stealing
+
+build src/CMakeFiles/sched.dir/stealing/queues/global.c.o: C_COMPILER__sched_Debug /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues/global.c || cmake_object_order_depends_target_sched
+  DEP_FILE = src/CMakeFiles/sched.dir/stealing/queues/global.c.o.d
+  FLAGS = -g -arch arm64 -std=gnu11
+  INCLUDES = -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils
+  OBJECT_DIR = src/CMakeFiles/sched.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/sched.dir/stealing/queues
+
+build src/CMakeFiles/sched.dir/stealing/queues/threadlocal.c.o: C_COMPILER__sched_Debug /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues/threadlocal.c || cmake_object_order_depends_target_sched
+  DEP_FILE = src/CMakeFiles/sched.dir/stealing/queues/threadlocal.c.o.d
+  FLAGS = -g -arch arm64 -std=gnu11
+  INCLUDES = -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils
+  OBJECT_DIR = src/CMakeFiles/sched.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/sched.dir/stealing/queues
+
+build src/CMakeFiles/sched.dir/stealing/scheduler.c.o: C_COMPILER__sched_Debug /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/scheduler.c || cmake_object_order_depends_target_sched
+  DEP_FILE = src/CMakeFiles/sched.dir/stealing/scheduler.c.o.d
+  FLAGS = -g -arch arm64 -std=gnu11
+  INCLUDES = -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils
+  OBJECT_DIR = src/CMakeFiles/sched.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/sched.dir/stealing
+
+build src/CMakeFiles/sched.dir/stealing/task.c.o: C_COMPILER__sched_Debug /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/task.c || cmake_object_order_depends_target_sched
+  DEP_FILE = src/CMakeFiles/sched.dir/stealing/task.c.o.d
+  FLAGS = -g -arch arm64 -std=gnu11
+  INCLUDES = -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils
+  OBJECT_DIR = src/CMakeFiles/sched.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/sched.dir/stealing
+
+build src/CMakeFiles/sched.dir/stealing/worker.c.o: C_COMPILER__sched_Debug /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/worker.c || cmake_object_order_depends_target_sched
+  DEP_FILE = src/CMakeFiles/sched.dir/stealing/worker.c.o.d
+  FLAGS = -g -arch arm64 -std=gnu11
+  INCLUDES = -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils
+  OBJECT_DIR = src/CMakeFiles/sched.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/sched.dir/stealing
+
+build src/CMakeFiles/sched.dir/utils/list.c.o: C_COMPILER__sched_Debug /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils/list.c || cmake_object_order_depends_target_sched
+  DEP_FILE = src/CMakeFiles/sched.dir/utils/list.c.o.d
+  FLAGS = -g -arch arm64 -std=gnu11
+  INCLUDES = -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils
+  OBJECT_DIR = src/CMakeFiles/sched.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/sched.dir/utils
+
+build src/CMakeFiles/sched.dir/utils/park.c.o: C_COMPILER__sched_Debug /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils/park.c || cmake_object_order_depends_target_sched
+  DEP_FILE = src/CMakeFiles/sched.dir/utils/park.c.o.d
+  FLAGS = -g -arch arm64 -std=gnu11
+  INCLUDES = -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils
+  OBJECT_DIR = src/CMakeFiles/sched.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/sched.dir/utils
+
+build src/CMakeFiles/sched.dir/utils/waitgroup.c.o: C_COMPILER__sched_Debug /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils/waitgroup.c || cmake_object_order_depends_target_sched
+  DEP_FILE = src/CMakeFiles/sched.dir/utils/waitgroup.c.o.d
+  FLAGS = -g -arch arm64 -std=gnu11
+  INCLUDES = -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils
+  OBJECT_DIR = src/CMakeFiles/sched.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/sched.dir/utils
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target sched
+
+
+#############################################
+# Link the static library src/libsched.a
+
+build src/libsched.a: C_STATIC_LIBRARY_LINKER__sched_Debug src/CMakeFiles/sched.dir/stealing/coordinator.c.o src/CMakeFiles/sched.dir/stealing/queues/global.c.o src/CMakeFiles/sched.dir/stealing/queues/threadlocal.c.o src/CMakeFiles/sched.dir/stealing/scheduler.c.o src/CMakeFiles/sched.dir/stealing/task.c.o src/CMakeFiles/sched.dir/stealing/worker.c.o src/CMakeFiles/sched.dir/utils/list.c.o src/CMakeFiles/sched.dir/utils/park.c.o src/CMakeFiles/sched.dir/utils/waitgroup.c.o
+  ARCH_FLAGS = -arch arm64
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = src/CMakeFiles/sched.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = src/libsched.a
+  TARGET_PDB = sched.a.dbg
+
+
+#############################################
+# Utility command for test
+
+build src/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/src && /opt/homebrew/Cellar/cmake/3.23.2/bin/ctest --force-new-ctest-process
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build src/test: phony src/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/src && /opt/homebrew/Cellar/cmake/3.23.2/bin/ccmake -S/Users/ivanleskin/Desktop/MIPT/diploma/sched -B/Users/ivanleskin/Desktop/MIPT/diploma/sched/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build src/edit_cache: phony src/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/src && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/ivanleskin/Desktop/MIPT/diploma/sched -B/Users/ivanleskin/Desktop/MIPT/diploma/sched/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/ivanleskin/Desktop/MIPT/diploma/sched/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for gtest
+
+build tests/gtest: phony tests/CMakeFiles/gtest tests/CMakeFiles/gtest-complete tests/gtest/src/gtest-stamp/gtest-done tests/gtest/src/gtest-stamp/gtest-build tests/gtest/src/gtest-stamp/gtest-configure tests/gtest/src/gtest-stamp/gtest-download tests/gtest/src/gtest-stamp/gtest-install tests/gtest/src/gtest-stamp/gtest-mkdir tests/gtest/src/gtest-stamp/gtest-patch tests/gtest/src/gtest-stamp/gtest-update
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sched_test
+
+
+#############################################
+# Order-only phony target for sched_test
+
+build cmake_object_order_depends_target_sched_test: phony || cmake_object_order_depends_target_sched tests/gtest
+
+build tests/CMakeFiles/sched_test.dir/unit.cpp.o: CXX_COMPILER__sched_test_Debug /Users/ivanleskin/Desktop/MIPT/diploma/sched/tests/unit.cpp || cmake_object_order_depends_target_sched_test
+  DEFINES = -Dsched_test_EXPORTS
+  DEP_FILE = tests/CMakeFiles/sched_test.dir/unit.cpp.o.d
+  FLAGS = -g -arch arm64 -g -std=gnu++2b
+  INCLUDES = -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest/googletest/include -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest/googlemock/include -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils
+  OBJECT_DIR = tests/CMakeFiles/sched_test.dir
+  OBJECT_FILE_DIR = tests/CMakeFiles/sched_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sched_test
+
+
+#############################################
+# Link the executable tests/sched_test
+
+build tests/sched_test: CXX_EXECUTABLE_LINKER__sched_test_Debug tests/CMakeFiles/sched_test.dir/unit.cpp.o | tests/gtest/src/gtest-build/lib/libgtest.a src/libsched.a || src/libsched.a tests/gtest
+  FLAGS = -g -arch arm64
+  LINK_FLAGS = -v
+  LINK_LIBRARIES = tests/gtest/src/gtest-build/lib/libgtest.a  src/libsched.a
+  OBJECT_DIR = tests/CMakeFiles/sched_test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests/sched_test
+  TARGET_PDB = sched_test.dbg
+
+
+#############################################
+# Utility command for test
+
+build tests/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests && /opt/homebrew/Cellar/cmake/3.23.2/bin/ctest --force-new-ctest-process
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build tests/test: phony tests/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build tests/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests && /opt/homebrew/Cellar/cmake/3.23.2/bin/ccmake -S/Users/ivanleskin/Desktop/MIPT/diploma/sched -B/Users/ivanleskin/Desktop/MIPT/diploma/sched/build
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build tests/edit_cache: phony tests/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build tests/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake --regenerate-during-build -S/Users/ivanleskin/Desktop/MIPT/diploma/sched -B/Users/ivanleskin/Desktop/MIPT/diploma/sched/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build tests/rebuild_cache: phony tests/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Phony custom command for tests/CMakeFiles/gtest
+
+build tests/CMakeFiles/gtest | ${cmake_ninja_workdir}tests/CMakeFiles/gtest: phony tests/CMakeFiles/gtest-complete
+
+
+#############################################
+# Custom command for tests/CMakeFiles/gtest-complete
+
+build tests/CMakeFiles/gtest-complete tests/gtest/src/gtest-stamp/gtest-done | ${cmake_ninja_workdir}tests/CMakeFiles/gtest-complete ${cmake_ninja_workdir}tests/gtest/src/gtest-stamp/gtest-done: CUSTOM_COMMAND tests/gtest/src/gtest-stamp/gtest-install tests/gtest/src/gtest-stamp/gtest-mkdir tests/gtest/src/gtest-stamp/gtest-download tests/gtest/src/gtest-stamp/gtest-update tests/gtest/src/gtest-stamp/gtest-patch tests/gtest/src/gtest-stamp/gtest-configure tests/gtest/src/gtest-stamp/gtest-build tests/gtest/src/gtest-stamp/gtest-install
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E make_directory /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/CMakeFiles && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/CMakeFiles/gtest-complete && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/gtest-done
+  DESC = Completed 'gtest'
+  restat = 1
+
+
+#############################################
+# Custom command for tests/gtest/src/gtest-stamp/gtest-build
+
+build tests/gtest/src/gtest-stamp/gtest-build | ${cmake_ninja_workdir}tests/gtest/src/gtest-stamp/gtest-build: CUSTOM_COMMAND tests/gtest/src/gtest-stamp/gtest-configure
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-build && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake --build . && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/gtest-build
+  DESC = Performing build step for 'gtest'
+  restat = 1
+
+
+#############################################
+# Custom command for tests/gtest/src/gtest-stamp/gtest-configure
+
+build tests/gtest/src/gtest-stamp/gtest-configure | ${cmake_ninja_workdir}tests/gtest/src/gtest-stamp/gtest-configure: CUSTOM_COMMAND tests/gtest/tmp/gtest-cfgcmd.txt tests/gtest/src/gtest-stamp/gtest-patch
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-build && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -GNinja /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/gtest-configure
+  DESC = Performing configure step for 'gtest'
+  restat = 1
+
+
+#############################################
+# Custom command for tests/gtest/src/gtest-stamp/gtest-download
+
+build tests/gtest/src/gtest-stamp/gtest-download | ${cmake_ninja_workdir}tests/gtest/src/gtest-stamp/gtest-download: CUSTOM_COMMAND tests/gtest/src/gtest-stamp/download-gtest.cmake tests/gtest/src/gtest-stamp/gtest-urlinfo.txt tests/gtest/src/gtest-stamp/gtest-mkdir
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -P /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/download-gtest.cmake && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -P /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/verify-gtest.cmake && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -P /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/extract-gtest.cmake && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/gtest-download
+  DESC = Performing download step (download, verify and extract) for 'gtest'
+  restat = 1
+
+
+#############################################
+# Custom command for tests/gtest/src/gtest-stamp/gtest-install
+
+build tests/gtest/src/gtest-stamp/gtest-install | ${cmake_ninja_workdir}tests/gtest/src/gtest-stamp/gtest-install: CUSTOM_COMMAND tests/gtest/src/gtest-stamp/gtest-build
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-build && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E echo_append && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/gtest-install
+  DESC = No install step for 'gtest'
+  restat = 1
+
+
+#############################################
+# Custom command for tests/gtest/src/gtest-stamp/gtest-mkdir
+
+build tests/gtest/src/gtest-stamp/gtest-mkdir | ${cmake_ninja_workdir}tests/gtest/src/gtest-stamp/gtest-mkdir: CUSTOM_COMMAND
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -P /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/tmp/gtest-mkdirs.cmake && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/gtest-mkdir
+  DESC = Creating directories for 'gtest'
+  restat = 1
+
+
+#############################################
+# Custom command for tests/gtest/src/gtest-stamp/gtest-patch
+
+build tests/gtest/src/gtest-stamp/gtest-patch | ${cmake_ninja_workdir}tests/gtest/src/gtest-stamp/gtest-patch: CUSTOM_COMMAND tests/gtest/src/gtest-stamp/gtest-update
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E echo_append && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/gtest-patch
+  DESC = No patch step for 'gtest'
+  restat = 1
+
+
+#############################################
+# Custom command for tests/gtest/src/gtest-stamp/gtest-update
+
+build tests/gtest/src/gtest-stamp/gtest-update | ${cmake_ninja_workdir}tests/gtest/src/gtest-stamp/gtest-update: CUSTOM_COMMAND tests/gtest/src/gtest-stamp/gtest-download
+  COMMAND = cd /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E echo_append && /opt/homebrew/Cellar/cmake/3.23.2/bin/cmake -E touch /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest-stamp/gtest-update
+  DESC = No update step for 'gtest'
+  restat = 1
+
+# =============================================================================
+# Target aliases.
+
+build gtest: phony tests/gtest
+
+build libsched.a: phony src/libsched.a
+
+build sched: phony src/libsched.a
+
+build sched_test: phony tests/sched_test
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ivanleskin/Desktop/MIPT/diploma/sched/build
+
+build all: phony src/all tests/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/src
+
+build src/all: phony src/libsched.a
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests
+
+build tests/all: phony tests/gtest tests/sched_test
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../src/CMakeLists.txt ../tests/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject/RepositoryInfo.txt.in /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject/cfgcmd.txt.in /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject/download.cmake.in /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject/extractfile.cmake.in /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject/mkdirs.cmake.in /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake tests/gtest/tmp/gtest-mkdirs.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt ../src/CMakeLists.txt ../tests/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject/RepositoryInfo.txt.in /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject/cfgcmd.txt.in /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject/download.cmake.in /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject/extractfile.cmake.in /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/ExternalProject/mkdirs.cmake.in /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.23.2/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake tests/gtest/tmp/gtest-mkdirs.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--export-dynamic -rdynamic -v CMakeFiles/sched_test.dir/unit.cpp.o -o sched_test  gtest/src/gtest-build/lib/libgtest.a ../src/libsched.a 

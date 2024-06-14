@@ -1,0 +1,12 @@
+/tmp/sched/cmake-build-debug-switch/CMakeFiles/test.dir
+/tmp/sched/cmake-build-debug-switch/CMakeFiles/edit_cache.dir
+/tmp/sched/cmake-build-debug-switch/CMakeFiles/rebuild_cache.dir
+/tmp/sched/cmake-build-debug-switch/src/CMakeFiles/sched.dir
+/tmp/sched/cmake-build-debug-switch/src/CMakeFiles/test.dir
+/tmp/sched/cmake-build-debug-switch/src/CMakeFiles/edit_cache.dir
+/tmp/sched/cmake-build-debug-switch/src/CMakeFiles/rebuild_cache.dir
+/tmp/sched/cmake-build-debug-switch/tests/CMakeFiles/gtest.dir
+/tmp/sched/cmake-build-debug-switch/tests/CMakeFiles/sched_test.dir
+/tmp/sched/cmake-build-debug-switch/tests/CMakeFiles/test.dir
+/tmp/sched/cmake-build-debug-switch/tests/CMakeFiles/edit_cache.dir
+/tmp/sched/cmake-build-debug-switch/tests/CMakeFiles/rebuild_cache.dir

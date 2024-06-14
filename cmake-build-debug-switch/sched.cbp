@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sched"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\tests\;CMake Files\cmake-build-debug-switch\;CMake Files\cmake-build-debug-switch\tests\;CMake Files\cmake-build-debug-switch\tests\gtest\;CMake Files\cmake-build-debug-switch\tests\gtest\tmp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/sched/cmake-build-debug-switch"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/tmp/sched/cmake-build-debug-switch"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/sched/cmake-build-debug-switch"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/sched/cmake-build-debug-switch"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sched">
+				<Option output="/tmp/sched/cmake-build-debug-switch/src/libsched.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/sched/cmake-build-debug-switch/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/tmp/sched/src/stealing"/>
+					<Add directory="/tmp/sched/src/stealing/queues"/>
+					<Add directory="/tmp/sched/src/utils"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward"/>
+					<Add directory="/usr/lib/llvm-17/lib/clang/17/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/src/Makefile&quot;  VERBOSE=1 sched"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sched/fast">
+				<Option output="/tmp/sched/cmake-build-debug-switch/src/libsched.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/sched/cmake-build-debug-switch/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/tmp/sched/src/stealing"/>
+					<Add directory="/tmp/sched/src/stealing/queues"/>
+					<Add directory="/tmp/sched/src/utils"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward"/>
+					<Add directory="/usr/lib/llvm-17/lib/clang/17/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/src/Makefile&quot;  VERBOSE=1 sched/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option working_dir="/tmp/sched/cmake-build-debug-switch/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sched_test">
+				<Option output="/tmp/sched/cmake-build-debug-switch/tests/sched_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/sched/cmake-build-debug-switch/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/tmp/sched/cmake-build-debug-switch/tests/gtest/src/gtest/googletest/include"/>
+					<Add directory="/tmp/sched/cmake-build-debug-switch/tests/gtest/src/gtest/googlemock/include"/>
+					<Add directory="/tmp/sched/src/stealing"/>
+					<Add directory="/tmp/sched/src/stealing/queues"/>
+					<Add directory="/tmp/sched/src/utils"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward"/>
+					<Add directory="/usr/lib/llvm-17/lib/clang/17/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 sched_test"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sched_test/fast">
+				<Option output="/tmp/sched/cmake-build-debug-switch/tests/sched_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/sched/cmake-build-debug-switch/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/tmp/sched/cmake-build-debug-switch/tests/gtest/src/gtest/googletest/include"/>
+					<Add directory="/tmp/sched/cmake-build-debug-switch/tests/gtest/src/gtest/googlemock/include"/>
+					<Add directory="/tmp/sched/src/stealing"/>
+					<Add directory="/tmp/sched/src/stealing/queues"/>
+					<Add directory="/tmp/sched/src/utils"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/backward"/>
+					<Add directory="/usr/lib/llvm-17/lib/clang/17/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 sched_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/tmp/sched/cmake-build-debug-switch/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/sched/src/stealing/coordinator.c">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/stealing/coordinator.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/stealing/queues/global.c">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/stealing/queues/global.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/stealing/queues/threadlocal.c">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/stealing/queues/threadlocal.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/stealing/scheduler.c">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/stealing/scheduler.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/stealing/task.c">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/stealing/task.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/stealing/worker.c">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/stealing/worker.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/utils/list.c">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/utils/list.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/utils/park.c">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/utils/park.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/utils/waitgroup.c">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/utils/waitgroup.h">
+			<Option target="sched"/>
+		</Unit>
+		<Unit filename="/tmp/sched/tests/unit.cpp">
+			<Option target="sched_test"/>
+		</Unit>
+		<Unit filename="/tmp/sched/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/sched/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/tmp/sched/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/tmp/sched/cmake-build-debug-switch/tests/gtest/tmp/gtest-mkdirs.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-switch\tests\gtest\tmp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

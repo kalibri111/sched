@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+/tmp/sched/cmake-build-debug-switch/tests/CMakeFiles/gtest
+/tmp/sched/cmake-build-debug-switch/tests/CMakeFiles/gtest.rule
+/tmp/sched/cmake-build-debug-switch/tests/CMakeFiles/gtest-complete.rule
+/tmp/sched/cmake-build-debug-switch/tests/gtest/src/gtest-stamp/gtest-build.rule
+/tmp/sched/cmake-build-debug-switch/tests/gtest/src/gtest-stamp/gtest-configure.rule
+/tmp/sched/cmake-build-debug-switch/tests/gtest/src/gtest-stamp/gtest-download.rule
+/tmp/sched/cmake-build-debug-switch/tests/gtest/src/gtest-stamp/gtest-install.rule
+/tmp/sched/cmake-build-debug-switch/tests/gtest/src/gtest-stamp/gtest-mkdir.rule
+/tmp/sched/cmake-build-debug-switch/tests/gtest/src/gtest-stamp/gtest-patch.rule
+/tmp/sched/cmake-build-debug-switch/tests/gtest/src/gtest-stamp/gtest-update.rule

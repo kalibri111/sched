@@ -1,0 +1,26 @@
+# ninja log v5
+1094	1265	1714233379416255944	tests/sched_test	a36e24f6301a2824
+2473	2484	1714158287564286665	/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-patch	cbedb9115ce7323a
+19	2461	1714158287541156464	tests/gtest/src/f8d7d77c06936315286eb55f8de22cd23c188571.zip	e9ea16e508583eca
+19	2461	1714158287541156464	tests/gtest/src/gtest-stamp/gtest-download	e9ea16e508583eca
+7	1094	1714233379243240483	tests/CMakeFiles/sched_test.dir/global_queue.cpp.o	c3e19c607fbe6226
+2461	2473	1714158287553193480	tests/gtest/src/gtest-stamp/gtest-update	cc484b077876ad55
+8471	8481	1714158293561510769	/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-install	61298f2d80c76638
+344	516	1714158893930855765	sched	5c3e4787fbf05b2e
+3	19	1714158285098739526	/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-mkdir	5fb6bfeeb89d4b2d
+2	425	1715035280500431918	src/CMakeFiles/sched.dir/__/main.c.o	1a50ff966a035ca9
+19	2461	1714158287541156464	/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-download	e9ea16e508583eca
+7016	8471	1714158293550635324	/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-build	ff53bb2581e27aac
+8481	8496	1714158293575655102	/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-done	d74fec1a0f72c4bc
+8471	8481	1714158293561510769	tests/gtest/src/gtest-stamp/gtest-install	61298f2d80c76638
+3	19	1714158285098739526	tests/gtest/src/gtest-stamp/gtest-mkdir	5fb6bfeeb89d4b2d
+7016	8471	1714158293550635324	tests/gtest/src/gtest-stamp/gtest-build	ff53bb2581e27aac
+2473	2484	1714158287564286665	tests/gtest/src/gtest-stamp/gtest-patch	cbedb9115ce7323a
+2484	7016	1714158292095849999	/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-configure	6b31b6be63d4973e
+19	2461	1714158287541156464	/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/f8d7d77c06936315286eb55f8de22cd23c188571.zip	e9ea16e508583eca
+8481	8496	1714158293575655102	tests/gtest/src/gtest-stamp/gtest-done	d74fec1a0f72c4bc
+2484	7016	1714158292095849999	tests/gtest/src/gtest-stamp/gtest-configure	6b31b6be63d4973e
+2461	2473	1714158287553193480	/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/gtest/src/gtest-stamp/gtest-update	cc484b077876ad55
+8481	8496	1714158293575655102	tests/CMakeFiles/gtest-complete	d74fec1a0f72c4bc
+425	603	1715035280674958533	src/sched	70898c0dee283ef4
+8481	8496	1714158293575655102	/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/CMakeFiles/gtest-complete	d74fec1a0f72c4bc

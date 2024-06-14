@@ -1,0 +1,12 @@
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/CMakeFiles/test.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/src/CMakeFiles/sched.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/src/CMakeFiles/test.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/CMakeFiles/gtest.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/CMakeFiles/sched_test.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/CMakeFiles/test.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/CMakeFiles/edit_cache.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/cmake-build-debug/tests/CMakeFiles/rebuild_cache.dir

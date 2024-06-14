@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/CMakeFiles/gtest
+/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/CMakeFiles/gtest.rule
+/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/CMakeFiles/gtest-complete.rule
+/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-build.rule
+/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-configure.rule
+/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-download.rule
+/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-install.rule
+/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-mkdir.rule
+/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-patch.rule
+/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-update.rule

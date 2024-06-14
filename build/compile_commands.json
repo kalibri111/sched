@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/build",
+  "command": "/usr/bin/clang -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils -g -arch arm64 -std=gnu11 -o src/CMakeFiles/sched.dir/stealing/coordinator.c.o -c /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/coordinator.c",
+  "file": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/coordinator.c"
+},
+{
+  "directory": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/build",
+  "command": "/usr/bin/clang -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils -g -arch arm64 -std=gnu11 -o src/CMakeFiles/sched.dir/stealing/queues/global.c.o -c /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues/global.c",
+  "file": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues/global.c"
+},
+{
+  "directory": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/build",
+  "command": "/usr/bin/clang -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils -g -arch arm64 -std=gnu11 -o src/CMakeFiles/sched.dir/stealing/queues/threadlocal.c.o -c /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues/threadlocal.c",
+  "file": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues/threadlocal.c"
+},
+{
+  "directory": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/build",
+  "command": "/usr/bin/clang -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils -g -arch arm64 -std=gnu11 -o src/CMakeFiles/sched.dir/stealing/scheduler.c.o -c /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/scheduler.c",
+  "file": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/scheduler.c"
+},
+{
+  "directory": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/build",
+  "command": "/usr/bin/clang -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils -g -arch arm64 -std=gnu11 -o src/CMakeFiles/sched.dir/stealing/task.c.o -c /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/task.c",
+  "file": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/task.c"
+},
+{
+  "directory": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/build",
+  "command": "/usr/bin/clang -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils -g -arch arm64 -std=gnu11 -o src/CMakeFiles/sched.dir/stealing/worker.c.o -c /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/worker.c",
+  "file": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/worker.c"
+},
+{
+  "directory": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/build",
+  "command": "/usr/bin/clang -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils -g -arch arm64 -std=gnu11 -o src/CMakeFiles/sched.dir/utils/list.c.o -c /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils/list.c",
+  "file": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils/list.c"
+},
+{
+  "directory": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/build",
+  "command": "/usr/bin/clang -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils -g -arch arm64 -std=gnu11 -o src/CMakeFiles/sched.dir/utils/park.c.o -c /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils/park.c",
+  "file": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils/park.c"
+},
+{
+  "directory": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/build",
+  "command": "/usr/bin/clang -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils -g -arch arm64 -std=gnu11 -o src/CMakeFiles/sched.dir/utils/waitgroup.c.o -c /Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils/waitgroup.c",
+  "file": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils/waitgroup.c"
+},
+{
+  "directory": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/build",
+  "command": "/usr/bin/clang++ -Dsched_test_EXPORTS -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest/googletest/include -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/gtest/src/gtest/googlemock/include -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/stealing/queues -I/Users/ivanleskin/Desktop/MIPT/diploma/sched/src/utils -g -arch arm64 -g -std=gnu++2b -o tests/CMakeFiles/sched_test.dir/unit.cpp.o -c /Users/ivanleskin/Desktop/MIPT/diploma/sched/tests/unit.cpp",
+  "file": "/Users/ivanleskin/Desktop/MIPT/diploma/sched/tests/unit.cpp"
+}
+]

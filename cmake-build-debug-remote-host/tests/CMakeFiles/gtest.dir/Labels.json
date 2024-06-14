@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/CMakeFiles/gtest"
+		},
+		{
+			"file" : "/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/CMakeFiles/gtest.rule"
+		},
+		{
+			"file" : "/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/CMakeFiles/gtest-complete.rule"
+		},
+		{
+			"file" : "/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-build.rule"
+		},
+		{
+			"file" : "/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-configure.rule"
+		},
+		{
+			"file" : "/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-download.rule"
+		},
+		{
+			"file" : "/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-install.rule"
+		},
+		{
+			"file" : "/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-mkdir.rule"
+		},
+		{
+			"file" : "/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-patch.rule"
+		},
+		{
+			"file" : "/tmp/tmp.1IfkmvHCTw/cmake-build-debug-remote-host/tests/gtest/src/gtest-stamp/gtest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gtest"
+		],
+		"name" : "gtest"
+	}
+}

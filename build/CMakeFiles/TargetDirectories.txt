@@ -1,0 +1,12 @@
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/CMakeFiles/test.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/CMakeFiles/edit_cache.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/CMakeFiles/rebuild_cache.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/src/CMakeFiles/sched.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/src/CMakeFiles/test.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/src/CMakeFiles/edit_cache.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/src/CMakeFiles/rebuild_cache.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/CMakeFiles/gtest.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/CMakeFiles/sched_test.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/CMakeFiles/test.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/CMakeFiles/edit_cache.dir
+/Users/ivanleskin/Desktop/MIPT/diploma/sched/build/tests/CMakeFiles/rebuild_cache.dir

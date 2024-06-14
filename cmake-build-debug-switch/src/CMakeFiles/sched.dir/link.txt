@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar-17 qc libsched.a CMakeFiles/sched.dir/stealing/coordinator.c.o CMakeFiles/sched.dir/stealing/queues/global.c.o CMakeFiles/sched.dir/stealing/queues/threadlocal.c.o CMakeFiles/sched.dir/stealing/scheduler.c.o CMakeFiles/sched.dir/stealing/task.c.o CMakeFiles/sched.dir/stealing/worker.c.o CMakeFiles/sched.dir/utils/list.c.o CMakeFiles/sched.dir/utils/park.c.o CMakeFiles/sched.dir/utils/waitgroup.c.o
+/usr/bin/llvm-ranlib-17 libsched.a
